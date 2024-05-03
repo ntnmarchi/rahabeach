@@ -16,3 +16,6 @@ simlpy run this curl request with the following payloads to hit the itinerary en
 ``curl -X POST http://localhost:8080/itinerary \
      -H "Content-Type: application/json" \
      -d '{"tickets": [["JFK", "SFO"], ["SFO", "ATL"], ["ATL", "JFK"]]}'``
+
+
+I've just used the main branch given the simplicity of the task at hand. It was just a couple of bespoke changes to a very standard API structure.
